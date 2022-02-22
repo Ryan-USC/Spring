@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--告诉spring创建对象
+        声明bean，就是告诉spring要创建某个类的对象
+        id:对象的自定义名称，唯一值。spring通过这个名称找到对象
+        class:类的全限定名称（不能是接口，因为spring是通过反射机制创建对象的，必须使用类）
+
+        spring就完成 SomeService service = new SomeServiceImpl();
+        spring是吧创建好的对象放到了map中，spring框架就有一个map存在对象。
+            springMap.put(id, 对象）
+
+        一个bean标签声明一个对象
+
+    -->
+    <bean id="someService" class="org.example.service.impl.SomeServiceImpl" />
+</beans>
+<!--
+    spring的配置文件：
+    1、beans：是根标签，spring把java对象创建为beans
+    2、spring-beans.xsd是约束文件，和mybatis中的dtd一样。
+
+-->

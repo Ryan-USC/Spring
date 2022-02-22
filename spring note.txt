@@ -1,0 +1,73 @@
+spring 全家桶：spring, springmvc, spring boot, spring cloud
+
+    spring：出现在2002左右，解决企业开发难度。减轻对项目模块之间的管理，类和类之间的管理，
+    帮助开发人员创建对象，管理对象之间的关系。spring核心技术 ioc，aop。能实现模块之间，类之间的接耦合。
+
+    依赖：classA中使用classB的属性或者方法，叫做classA依赖classB
+
+---------------------------------------------------------------------------------------------
+
+how to learn framework: 框架是一个软件，其他人写好的软件
+1）知道框架能做什么，mybatis--访问数据库，对表中的数据进行增删改查
+2）框架的语法，框架要完成一个功能是需要一定的步骤支持的，
+3）框架的内部实现，框架的内部怎么做，原理是什么。
+4）通过学习，可以实现一个框架。
+
+spring的第一个核心工能：IOC --- Inversion of Control
+
+IOC：控制反转，是一个理论。
+    描述的：把对象的创建，赋值，管理工作都交给代码之外的容器实现，也就是对象的创建室友其他的外部资源完成的
+
+Control：创建对象，对象的属性赋值，对象之间的关系管理。
+Inversion：把原来的开发人员管理，创建对象的权限转移给代码之外的容器实现。有容器代替开发人员管理对象，创建对象，给属性赋值。
+
+Container：是一个服务器软件，一个框架（spring）
+
+为什么要使用IOC：目的是减少对代码的改动，也能实现不同的功能。
+
+java中创建对象有哪些方式：
+    1.构造方法，new Student()
+    2.反射
+    3.序列化
+    4.克隆
+    5.ioc:容器创造对象
+    6.动态代理
+
+ioc的体现：
+    servlet
+    1：创建类继承HttpServlet
+    2：在web.xml注册servlet， 使用<servlet-name> myservlet </servlet-name>
+                                <servlet-class>......</servlet-class>
+    3：没有创建servlet对象
+    4：Servlet是Tomcat服务器创建的。Tomcat也称为容器。
+    Tomcat作为容器，里面存放的有Servlet对象，Listener，Filter对象
+
+IoC的技术实现
+  DI是ioc的技术实现
+  DI--Dependency Injection：依赖注入，只需要在程序中提供要使用的对象的名称，至于对象如何在容器中创建，
+                            赋值，查找，都由容器内部实现
+
+spring是使用的DI实现的Ioc的功能，spring底层创建对象，使用的是反射机制。
+
+spring是一个容器，管理对象，给属性赋值，底层是反射创建对象。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
