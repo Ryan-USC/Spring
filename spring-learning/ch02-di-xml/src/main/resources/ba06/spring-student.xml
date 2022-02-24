@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--
+        student模块声明
+-->
+
+
+    <bean id="myStudent" class="org.example.ba06.Student" autowire="byType">
+        <constructor-arg name="name" value="ryan"/>
+        <constructor-arg name="age" value="30"/>
+<!--        <constructor-arg name="mySchool" ref="mySchool"/>-->
+    </bean>
+
+
+
+
+
+</beans>
