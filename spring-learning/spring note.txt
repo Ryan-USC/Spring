@@ -161,6 +161,37 @@ junit：单元测试，一个工具类库，做测试方法用的
     2）表示切面执行的位置，使用的是切入点表达式
 
 
+======================================================================
+第四章：把mybatis框架和spring集成在一起，向一个框架一样使用
+
+用的技术是：ioc
+为什么ioc能把mybatis和spring继承在一起呢，是因为ioc能创建对象。
+    可以把mybatis创建的对象交给spring统一创建，开发人员统一在spring中获取对象。
+    开发人员就不用同时面对两个或多个框架了，就面对一个spring。
+
+mybatis使用步骤：
+1、定义dao接口，StudentDao
+2、定义mapper文件 StudentDao.xml
+3、定义mybatis的主配置文件 mybatis.xml
+4、创建Dao的代理对象 StudentDao dao = SqlSession.getMapper(StudentDao.class)
+    List<Student> students = dao.selectStudent();
+
+要使用dao对象，需要使用getMapper()方法
+怎么使用getMapper()方法，需要哪些条件
+1、获取SqlSession对象，需要使用SqlSessionFactory的openSession()方法
+2、创建SqlSessionFactory对象。通过读取mybatis的主配置文件，能创建SqlSessionFactory对象。
+
+我们会使用一个独立的连接池类替换mybatis默认自带的，把连接池类也交给spring来创建
+
+===================================================================================
+通过以上的说明，我们需要让spring创建以下对象
+1、独立的连接池类的对象，使用阿里的druid连接池
+2、SqlSessionFactory对象
+3、创建出dao对象
+
+需要学习就是上面三个对象的创建语法，使用xml的bean标签
+
+
 
 
 
