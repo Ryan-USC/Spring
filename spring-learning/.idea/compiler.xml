@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ch04-di-anno" />
+        <module name="ch06-aop-aspectj" />
         <module name="ch02-di-xml" />
         <module name="ch01-hello-spring" />
-        <module name="ch04-di-anno" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ch01-hello-spring" target="1.8" />
       <module name="ch02-di-xml" target="1.8" />
       <module name="ch04-di-anno" target="1.8" />
+      <module name="ch06-aop-aspectj" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
