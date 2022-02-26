@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ch11-spring-webapp:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffad3e63-4f16-466e-8758-7c7c4e5c3690" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ch11_spring_web_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ch11_spring_web_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ch11_spring_webapp_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ch11_spring_webapp_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_2_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2_1_b03.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-hello-spring/ch01-hello-spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-hello-spring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-hello-spring/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-hello-spring/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-hello-spring/src/main/java/org/example/service/SomeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-hello-spring/src/main/java/org/example/service/impl/SomeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-hello-spring/src/main/resources/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-hello-spring/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-hello-spring/target/classes/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-hello-spring/target/classes/org/example/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-hello-spring/target/classes/org/example/service/SomeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-hello-spring/target/classes/org/example/service/impl/SomeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-hello-spring/target/test-classes/org/example/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/ch02-di-xml.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/java/org/example/ba01/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/java/org/example/ba02/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/java/org/example/ba02/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/java/org/example/ba03/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/java/org/example/ba03/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/java/org/example/ba04/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/java/org/example/ba04/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/java/org/example/ba05/PrimarySchool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/java/org/example/ba05/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/java/org/example/ba05/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/java/org/example/ba06/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/java/org/example/ba06/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/resources/ba01/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/resources/ba02/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/resources/ba03/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/resources/ba04/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/resources/ba05/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/resources/ba06/spring-school.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/resources/ba06/spring-student.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/main/resources/ba06/total.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/test/java/org/example/AppTest02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/test/java/org/example/AppTest03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/test/java/org/example/AppTest04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/test/java/org/example/AppTest05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/src/test/java/org/example/AppTest06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/ba01/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/ba02/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/ba03/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/ba04/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/ba05/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/ba06/spring-school.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/ba06/spring-student.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/ba06/total.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/org/example/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/org/example/ba01/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/org/example/ba02/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/org/example/ba02/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/org/example/ba03/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/org/example/ba03/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/org/example/ba04/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/org/example/ba04/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/org/example/ba05/PrimarySchool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/org/example/ba05/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/org/example/ba05/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/org/example/ba06/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/classes/org/example/ba06/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/test-classes/org/example/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/test-classes/org/example/AppTest02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/test-classes/org/example/AppTest03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/test-classes/org/example/AppTest04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/test-classes/org/example/AppTest05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-di-xml/target/test-classes/org/example/AppTest06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/ch04-di-anno.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/main/java/org/example/ba01/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/main/java/org/example/ba02/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/main/java/org/example/ba03/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/main/java/org/example/ba03/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/main/java/org/example/ba04/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/main/java/org/example/ba04/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/main/java/org/example/ba05/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/main/java/org/example/ba05/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/main/java/org/example/ba06/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/main/java/org/example/ba06/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/main/resources/applicationContextback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/test/java/org/example/AppTest02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/test/java/org/example/AppTest03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/test/java/org/example/AppTest04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/test/java/org/example/AppTest05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/src/test/java/org/example/AppTest06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/classes/applicationContextback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/classes/org/example/ba01/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/classes/org/example/ba02/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/classes/org/example/ba03/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/classes/org/example/ba03/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/classes/org/example/ba04/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/classes/org/example/ba04/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/classes/org/example/ba05/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/classes/org/example/ba05/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/classes/org/example/ba06/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/classes/org/example/ba06/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/test-classes/org/example/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/test-classes/org/example/AppTest02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/test-classes/org/example/AppTest03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/test-classes/org/example/AppTest04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/test-classes/org/example/AppTest05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04-di-anno/target/test-classes/org/example/AppTest06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05-aop-leadin/ch05-aop-leadin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05-aop-leadin/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05-aop-leadin/src/com/bjpower/handler/MyInvocationhandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05-aop-leadin/src/com/bjpower/service/MyAoo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05-aop-leadin/src/com/bjpower/service/SomeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05-aop-leadin/src/com/bjpower/service/impl/SomeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05-aop-leadin/src/com/bjpower/util/ServiceTools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/ch06-aop-aspectj.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba01/MyAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba01/SomeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba01/SomeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba02/MyAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba02/SomeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba02/SomeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba03/MyAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba03/SomeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba03/SomeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba04/MyAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba04/SomeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba04/SomeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba05/MyAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba05/SomeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba06/MyAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba06/SomeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba06/SomeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/test/java/org/example/AppTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/test/java/org/example/AppTest3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/test/java/org/example/AppTest4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/test/java/org/example/AppTest5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/src/test/java/org/example/AppTest6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba01/MyAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba01/SomeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba01/SomeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba02/MyAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba02/SomeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba02/SomeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba03/MyAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba03/SomeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba03/SomeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba04/MyAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba04/SomeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba04/SomeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba05/MyAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba05/SomeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba06/MyAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba06/SomeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/classes/org/example/ba06/SomeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/test-classes/org/example/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/test-classes/org/example/AppTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/test-classes/org/example/AppTest3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/test-classes/org/example/AppTest4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/test-classes/org/example/AppTest5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-aop-aspectj/target/test-classes/org/example/AppTest6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/ch07-spring-mybatis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/src/main/java/org/example/dao/StudentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/src/main/java/org/example/dao/StudentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/src/main/java/org/example/domain/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/src/main/java/org/example/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/src/main/java/org/example/service/impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/src/main/resources/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/target/classes/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/target/classes/org/example/dao/StudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/target/classes/org/example/dao/StudentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/target/classes/org/example/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/target/classes/org/example/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/target/classes/org/example/service/impl/StudentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch07-spring-mybatis/target/test-classes/org/example/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/ch08-spring-trans.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/org/example/dao/GoodsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/org/example/dao/GoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/org/example/dao/SaleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/org/example/dao/SaleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/org/example/domain/Goods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/org/example/domain/Sale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/org/example/excep/NotEnoughException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/org/example/service/BuyGoodsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/src/main/java/org/example/service/impl/BuyGoodsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/src/main/resources/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/target/classes/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/target/classes/org/example/dao/GoodsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/target/classes/org/example/dao/GoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/target/classes/org/example/dao/SaleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/target/classes/org/example/dao/SaleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/target/classes/org/example/domain/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/target/classes/org/example/domain/Sale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/target/classes/org/example/excep/NotEnoughException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/target/classes/org/example/service/BuyGoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/target/classes/org/example/service/impl/BuyGoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch08-spring-trans/target/test-classes/org/example/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/ch09-spring-trans-anno.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/src/main/java/org/example/dao/GoodsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/src/main/java/org/example/dao/GoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/src/main/java/org/example/dao/SaleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/src/main/java/org/example/dao/SaleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/src/main/java/org/example/domain/Goods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/src/main/java/org/example/domain/Sale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/src/main/java/org/example/excep/NotEnoughException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/src/main/java/org/example/service/BuyGoodsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/src/main/java/org/example/service/impl/BuyGoodsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/src/main/resources/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/target/classes/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/target/classes/org/example/dao/GoodsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/target/classes/org/example/dao/GoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/target/classes/org/example/dao/SaleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/target/classes/org/example/dao/SaleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/target/classes/org/example/domain/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/target/classes/org/example/domain/Sale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/target/classes/org/example/excep/NotEnoughException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/target/classes/org/example/service/BuyGoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/target/classes/org/example/service/impl/BuyGoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch09-spring-trans-anno/target/test-classes/org/example/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/ch10-spring-trans-aspectj.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/src/main/java/org/crm/service/crmServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/src/main/java/org/example/dao/GoodsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/src/main/java/org/example/dao/GoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/src/main/java/org/example/dao/SaleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/src/main/java/org/example/dao/SaleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/src/main/java/org/example/domain/Goods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/src/main/java/org/example/domain/Sale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/src/main/java/org/example/excep/NotEnoughException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/src/main/java/org/example/service/BuyGoodsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/src/main/java/org/example/service/impl/BuyGoodsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/src/main/java/org/service/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/src/main/resources/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/target/classes/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/target/classes/org/crm/service/crmServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/target/classes/org/example/dao/GoodsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/target/classes/org/example/dao/GoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/target/classes/org/example/dao/SaleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/target/classes/org/example/dao/SaleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/target/classes/org/example/domain/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/target/classes/org/example/domain/Sale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/target/classes/org/example/excep/NotEnoughException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/target/classes/org/example/service/BuyGoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/target/classes/org/example/service/impl/BuyGoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/target/classes/org/service/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10-spring-trans-aspectj/target/test-classes/org/example/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/ch11-spring-webapp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/src/main/java/org/example/controller/RegisterServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/src/main/java/org/example/dao/StudentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/src/main/java/org/example/dao/StudentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/src/main/java/org/example/domain/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/src/main/java/org/example/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/src/main/java/org/example/service/impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/src/main/resources/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/src/main/webapp/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/classes/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/classes/org/example/controller/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/classes/org/example/dao/StudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/classes/org/example/dao/StudentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/classes/org/example/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/classes/org/example/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/classes/org/example/service/impl/StudentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/lib/druid-1.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/ch11-spring-webapp-1.0-SNAPSHOT/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/classes/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/classes/org/example/controller/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/classes/org/example/dao/StudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/classes/org/example/dao/StudentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/classes/org/example/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/classes/org/example/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11-spring-webapp/target/classes/org/example/service/impl/StudentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ch05-aop-leadin/com/bjpower/handler/MyInvocationhandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ch05-aop-leadin/com/bjpower/service/MyAoo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ch05-aop-leadin/com/bjpower/service/SomeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ch05-aop-leadin/com/bjpower/service/impl/SomeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ch05-aop-leadin/com/bjpower/util/ServiceTools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring note.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="Mybatis-mapper" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/opt/apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="$USER_HOME$/opt/apache-maven-3.8.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="25SKLxvR06eGaFWJ7tRdwGn2YUi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/ch07-spring-mybatis/src/main/java/org/example/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch08-spring-trans/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.service.impl" />
+      <recent name="org.example.service" />
+      <recent name="org.example.ba01" />
+      <recent name="com.bjpower.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch08-spring-trans/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba06" />
+      <recent name="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba05" />
+      <recent name="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba04" />
+      <recent name="$PROJECT_DIR$/ch06-aop-aspectj/src/main/java/org/example/ba03" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+      <recent name="org.example.ba03" />
+      <recent name="org.example.ba02" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.myCat">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch08-spring-trans" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test01 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch09-spring-trans-anno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch10-spring-trans-aspectj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testDaoInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch07-spring-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="testDaoInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testServiceSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch07-spring-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="testServiceSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myCat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.8" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ch11_spring_webapp/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ch11-spring-webapp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ch11_spring_webapp" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="29b55436-fdf4-4616-965c-f54a598d60ae" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52324" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ch11-spring-webapp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AppTest.test01 (1)" />
+      <item itemvalue="JUnit.AppTest.test01 (2)" />
+      <item itemvalue="JUnit.AppTest.test01 (3)" />
+      <item itemvalue="JUnit.AppTest.testDaoInsert" />
+      <item itemvalue="JUnit.AppTest.testServiceSelect" />
+      <item itemvalue="Tomcat Server.myCat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest.test01 (3)" />
+        <item itemvalue="JUnit.AppTest.test01 (2)" />
+        <item itemvalue="JUnit.AppTest.test01 (1)" />
+        <item itemvalue="JUnit.AppTest.testServiceSelect" />
+        <item itemvalue="JUnit.AppTest.testDaoInsert" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffad3e63-4f16-466e-8758-7c7c4e5c3690" name="Default Changelist" comment="" />
+      <created>1645514998708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645514998708</updated>
+      <workItem from="1645515000123" duration="4517000" />
+      <workItem from="1645643664364" duration="6393000" />
+      <workItem from="1645659569289" duration="38000" />
+      <workItem from="1645659639906" duration="11824000" />
+      <workItem from="1645684701433" duration="8702000" />
+      <workItem from="1645772482025" duration="4769000" />
+      <workItem from="1645815074656" duration="5130000" />
+      <workItem from="1645836253448" duration="4394000" />
+      <workItem from="1645840691779" duration="8961000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
