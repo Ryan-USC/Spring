@@ -311,6 +311,16 @@ spring框架中提供的事务处理方案
 
 2、web项目是在tomcat服务器上运行的。tomcat启动，项目一直运行
 
+需求：
+web项目中容器对象只需要创建一次，把容器对象放入到全局作用域ServletContext中。
+
+怎么实现？
+    使用监听器 当全局作用域对象被创建时， 创建容器 存入ServletContext
+
+    监听器作用：
+        1）创建容器对象
+        2）把容器对象放入到ServeletContext
+
 
 
 

@@ -16,7 +16,7 @@
           1.加入了一个新的约束文件spring-context.xsd
           2.给这个新的约束文件起个命名空间的名称
         -->
-    <context:component-scan base-package="org.example.ba03"/>
+    <context:component-scan base-package="org.example.ba06"/>
 
     <!--指定多个包的三种方式-->
     <!--第一种方式：使用多次组件扫描器，指定不同的包-->
