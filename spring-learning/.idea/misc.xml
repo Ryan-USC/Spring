@@ -8,10 +8,13 @@
         <option value="$PROJECT_DIR$/ch04-di-anno/pom.xml" />
         <option value="$PROJECT_DIR$/ch06-aop-aspectj/pom.xml" />
         <option value="$PROJECT_DIR$/ch07-spring-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/ch08-spring-trans/pom.xml" />
+        <option value="$PROJECT_DIR$/ch09-spring-trans-anno/pom.xml" />
+        <option value="$PROJECT_DIR$/ch10-spring-trans-aspectj/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_16">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/ch05-aop-leadin/ch05-aop-leadin.iml" filepath="$PROJECT_DIR$/ch05-aop-leadin/ch05-aop-leadin.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch06-aop-aspectj/ch06-aop-aspectj.iml" filepath="$PROJECT_DIR$/ch06-aop-aspectj/ch06-aop-aspectj.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch07-spring-mybatis/ch07-spring-mybatis.iml" filepath="$PROJECT_DIR$/ch07-spring-mybatis/ch07-spring-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch08-spring-trans/ch08-spring-trans.iml" filepath="$PROJECT_DIR$/ch08-spring-trans/ch08-spring-trans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch09-spring-trans-anno/ch09-spring-trans-anno.iml" filepath="$PROJECT_DIR$/ch09-spring-trans-anno/ch09-spring-trans-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch10-spring-trans-aspectj/ch10-spring-trans-aspectj.iml" filepath="$PROJECT_DIR$/ch10-spring-trans-aspectj/ch10-spring-trans-aspectj.iml" />
     </modules>
   </component>
 </project>
