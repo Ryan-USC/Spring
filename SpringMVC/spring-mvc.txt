@@ -1,0 +1,10 @@
+SpringMVC：是基于spring的框架，实际上就是spring的一个模块，专门是做web开发的。
+            理解是servlet的一个升级
+
+            web开发底层是servlet，框架是在servlet基础上加入一些功能，使得web开发更方便。
+
+SpringMVC就是一个spring。Spring是容器，，ioc能够管理对象，使用<bean>，@Component，@Repository，@Service，@Controller
+    SpringMVC能够创建对象，放入到容器中（SpringMVC容器），springmvc容器中放的是控制器对象。
+
+    我们要做的是 使用@Controller创建控制器对象，把对象放入到springmvc容器中，把创建的对象作为控制器使用
+    这个控制器对象能接受用户的请求
