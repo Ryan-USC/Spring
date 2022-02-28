@@ -11,6 +11,7 @@
         <module name="ch04-return" />
         <module name="ch02-requestmapping" />
         <module name="ch05-url-pattern" />
+        <module name="ch06-path" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="ch03-receiveparam" target="1.8" />
       <module name="ch04-return" target="1.8" />
       <module name="ch05-url-pattern" target="1.8" />
+      <module name="ch06-path" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

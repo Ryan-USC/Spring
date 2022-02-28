@@ -1,15 +1,21 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    String basepath = request.getScheme() + "://" +
+                request.getServerName() + ":" + request.getServerPort() +
+                request.getContextPath() + "/";
+%>
 <html>
 <head>
     <title>Title</title>
+    <base href="<%basepath%>">
 </head>
 <body>
     <p>First SpringMVC project</p>
-    <p><a href="test/some.do">submit some.do get request</a> </p>
+<%--    <p><a href="user/some.do">submit some.do get request</a> </p>--%>
+<%--    <p><a href="${pageContext.request.contextPath}/user/some.do">submit some.do get request</a> </p>--%>
+    <p><a href="user/some.do">submit some.do get request</a> </p>
     <br>
-    <form action="test/other.do" method="post">
-        <input type="submit" value="post请求other.do">
-    </form>
-    <p><a href="test/other.do">submit other.do request</a> </p>
+
+
 </body>
 </html>
