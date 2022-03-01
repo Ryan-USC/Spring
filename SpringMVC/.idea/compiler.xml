@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ch08-forward-redirect" />
         <module name="ch02-requestmapping" />
+        <module name="ch10-interceptor" />
         <module name="ch06-path" />
         <module name="ch03-receiveparam" />
         <module name="ch09-exception-handler" />
@@ -27,6 +28,7 @@
       <module name="ch07-ssm" target="1.8" />
       <module name="ch08-forward-redirect" target="1.8" />
       <module name="ch09-exception-handler" target="1.8" />
+      <module name="ch10-interceptor" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

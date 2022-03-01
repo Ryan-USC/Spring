@@ -10,6 +10,7 @@
     <file type="web" url="file://$PROJECT_DIR$/ch07-ssm" />
     <file type="web" url="file://$PROJECT_DIR$/ch08-forward-redirect" />
     <file type="web" url="file://$PROJECT_DIR$/ch09-exception-handler" />
+    <file type="web" url="file://$PROJECT_DIR$/ch10-interceptor" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -23,6 +24,7 @@
         <option value="$PROJECT_DIR$/ch07-ssm/pom.xml" />
         <option value="$PROJECT_DIR$/ch08-forward-redirect/pom.xml" />
         <option value="$PROJECT_DIR$/ch09-exception-handler/pom.xml" />
+        <option value="$PROJECT_DIR$/ch10-interceptor/pom.xml" />
       </list>
     </option>
   </component>

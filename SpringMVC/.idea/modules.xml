@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/ch07-ssm/ch07-ssm.iml" filepath="$PROJECT_DIR$/ch07-ssm/ch07-ssm.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch08-forward-redirect/ch08-forward-redirect.iml" filepath="$PROJECT_DIR$/ch08-forward-redirect/ch08-forward-redirect.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch09-exception-handler/ch09-exception-handler.iml" filepath="$PROJECT_DIR$/ch09-exception-handler/ch09-exception-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch10-interceptor/ch10-interceptor.iml" filepath="$PROJECT_DIR$/ch10-interceptor/ch10-interceptor.iml" />
     </modules>
   </component>
 </project>
