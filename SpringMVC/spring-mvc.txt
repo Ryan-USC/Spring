@@ -133,4 +133,26 @@ springmvc框架使用的是统一的，全局的异常处理。
     拦截器有三个执行时间点
 7、过滤器可以处理jsp，js，html等
     拦截器是侧重于拦截对Controller的对象，如果你的请求不能被DispatcherServlet接收，这个请求不会执行拦截器
+========================================================================================
+springmvc内部请求的处理流程：也就是springmvc接收请求，到处理完成的过程
+1、用户发起请求some.do
+2、DispatcherServlet接收请求some.do，把请求转交给处理器映射器
+    处理器映射器：springmvc框架的一个对象，框架实现了HandlerMapping接口的类都叫做映射器
 
+    处理器映射器作用：根据请求，把springmvc容器对象获取处理器对象（MyController controller = ctx.getBean(some.do)
+                    框架把找到的处理器对象放到一个叫做处理器执行链（HandlerExecutionChain）的类保存
+    HandlerExecutionChain：类中保存着     1、处理器对象(Mycontroller)    2、项目中的所有拦截器List<HandlerInterceptor>
+
+3、DispatcherServlet把2中的HandlerExecutionChain中的处理器对象交给了处理器适配器对象（多个）
+    处理器适配器：springmvc框架中的对象，需要实现HandlerAdapter方法
+    作用：执行处理器方法（调用myController.doSome()得到返回值ModelAndView
+
+4、DispatcherServlet把3中的获取的ModelAndView交给了视图解析器对象。
+    视图解析器：springmvc中的对象，需要实现ViewResolver接口。
+    视图解析器作用：组成视图完整路径，使用前缀，后缀，并创建View对象。
+        View是一个接口，表示视图的，在框架中jsp，html不是string表示，而是使用View和他的实现类表示。
+
+        InternalResourceView：视图类，表示就是jsp文件，视图解析器会创建InternalResourceView对象
+        这个类中有一个属性就是url=/WEB-INF/view/show.jsp
+5、DispatcherServlet把4步骤中创建的View对象获取到，调用View类自己的方法，把Model数据放入到request作用域，
+执行对象视图的forward。请求结束。
