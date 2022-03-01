@@ -7,6 +7,7 @@
     <file type="web" url="file://$PROJECT_DIR$/ch04-return" />
     <file type="web" url="file://$PROJECT_DIR$/ch05-url-pattern" />
     <file type="web" url="file://$PROJECT_DIR$/ch06-path" />
+    <file type="web" url="file://$PROJECT_DIR$/ch07-ssm" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -17,6 +18,7 @@
         <option value="$PROJECT_DIR$/ch04-return/pom.xml" />
         <option value="$PROJECT_DIR$/ch05-url-pattern/pom.xml" />
         <option value="$PROJECT_DIR$/ch06-path/pom.xml" />
+        <option value="$PROJECT_DIR$/ch07-ssm/pom.xml" />
       </list>
     </option>
   </component>
